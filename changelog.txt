@@ -1,0 +1,24 @@
+AxionAOSP-16
+Build Date: 19/09/2025
+- Initial release build
+- Bring back Dolby Atmos
+- Switch to erofs partition
+- Drop qcom power blobs
+- Drop mi_thermald
+- Switch to lineage libperfmgr
+- Drop turbo charging (getting handled automatically)
+- Update blobs to Latest OS2.0.204.0VNPMIXM
+- Drop AOSP recovery to stop overriding TWRP
+- Disable skia tracing
+- Enable batch writes for OTA
+- Use foreground uclamp for hwcomposer
+- Use foreground cpuset/uclamp for gralloc
+- Add Xiaomi MiCharge
+- Set 1 second interaction boost
+- Update gpu drivers to 819
+- Add diag sepolicy
+- Drop unneeded FIXED_PERFORMANCE in powerhint
+- Enable AOSP surface flinger
+- Add Leica Camera
+- Switch to pixel thermal service
+- And many more changes
