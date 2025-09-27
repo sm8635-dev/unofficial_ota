@@ -1,4 +1,31 @@
 AxionAOSP-16
+Build Date: 28/09/2025
+- Rebase whole tree source from grewal
+- Fs9xx audio fixed
+- Bring back dolby vision
+- Make hwui backend vulkan by default
+- Disable gl backpressure
+- Do not use phase offsets as duration
+- Disable FRP
+- Drop QCOM perfd switch to libperfmgr and common libqti-perfd-client
+- Enable frame pacing
+- Kill WALT cpu boosting
+- Increase TA interaction boosting
+- Update proper architecture for peridot
+- Compile hwui for performance
+- Restrict mi_thermald from cpu hotplugging
+- Speed profile services and wifi-service to reduce RAM and storage
+- Set readahead_size_kb=128 to data
+- Rework mi_thermald sepolicy
+- Apply dex2oat optimizations
+- Address system_suspend denials
+- Force disable iorapd
+- Use THIN LTO for kernel
+- Upstream kernel to 6.1.151
+- Add KProfiles via kernel (No memory leaks)
+- And many more changes (Kernel side)
+
+AxionAOSP-16
 Build Date: 19/09/2025
 - Initial release build
 - Bring back Dolby Atmos
