@@ -1,0 +1,43 @@
+Evox-16
+Build Date: 28/11/2025
+- Initial A16 QPR1 build
+- Enable aidl fastboot hal
+- Switch to erofs
+- Use vulkan hwui backend
+- Disable skia tracing
+- Drop qcom power switch to common libqti-perfd and pixel libperfmgr
+- Enable frame pacing for smoother visual performance
+- Kill WALT cpu boosting
+- Miui Camera included
+- Compile HWUI for performance
+- Enable full ART optimizations with VDEX/ODEX
+- Add KProfiles
+- Speed profile services and wifi-service to reduce RAM and storage
+- Set readahead_size_kb=128 to data
+- Simplify load kernel dcvs_boost driver
+- Enable ADPF CPU hints for improved UI performance
+- Optimize dalvik heap config for performance
+- Use default value for assoc failure timeout
+- Implement DSPVolumeSynchronizer
+- Drop hotword enrollment blobs
+- Always use lz4 for zram
+- Enable smart pixels
+- Update dolby to material expressive design
+- Use foreground uclamp for Codec2 service
+- Remove deprecated GSI AVB keys
+- Fixing connecting BLE (bt 5.x) devices (smart watches, etc.)
+- Import cgroup tuning from gs101
+- Add per-app refresh rate, Clear speaker, Doze and Saturation
+- Set thermal_message via powerhint
+- Force disable low ram config
+- Utilize task_profiles.json + cgroups.json
+- Kang compressions and garbage collection options from zumapro fstab
+
+Kernel:
+- Add ksu next and susfs by default
+- Dont allow paths with lineage to be listed
+- Enable AUTOFDO_CLANG for AutoFDO optimizations
+- Enable Clang ThinLTO support
+- Use vmalloc for cooling_device_stats_setup()
+- Kill userspace CPU boosting entirely
+- Enable BOEFFLA_WL_BLOCKER
