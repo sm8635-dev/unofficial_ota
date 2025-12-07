@@ -1,4 +1,32 @@
 Evox-16
+Build Date: 07/12/2025
+- Neverallow app open access to /dev/ashmem
+- Add system ui option
+- Enable lazy rcu
+- Update graphics driver to v819
+- Force enable volte and vowifi
+- Drop uclamp
+- Convert saturation to M3E support
+- Enable qs media player turbulance
+- Disable SRE display feature
+- Enhance LE Audio and voice codec configurations
+- Set missing RKPD props
+- Go back to cortex a76 architecture
+- Drop WALT support
+- Drop remaining qti perf hal
+- Apply expressive theme in parts
+- Switch to SwitchPreferenceCompat
+- Switch to clang 19.0.1 for kernel
+
+Kernel:
+- Drop ksu next and susfs support
+- Introduce the Capacity Aware Superset Scheduler CASS
+- Tune GCC for Sd8sG3
+- Introduce SBalance IRQ balancer
+- Set default rate limit to 2000 us from schedutil
+- Use -O3 optimization
+
+Evox-16
 Build Date: 28/11/2025
 - Initial A16 QPR1 build
 - Enable aidl fastboot hal
